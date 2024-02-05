@@ -31,3 +31,6 @@ Objects, Attributes, Constructors, Methods, Alias, Reference Variable
 
 Graphics Basics
 - SimplePic.java
+- BasicShapesScalable.java
+- DrawPieChartScalable.java
+- CenterText.java
