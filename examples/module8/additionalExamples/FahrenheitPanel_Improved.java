@@ -12,9 +12,8 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class FahrenheitPanel_Improved extends JPanel
 {
-	private JLabel inputLabel, outputLabel, resultLabel;
+	private JLabel outputLabel, resultLabel;
 	private JTextField fahrenheit;
-	private JButton enterButton;
 
 	/**
 	 * Constructor: Sets up the main GUI components.
@@ -28,10 +27,10 @@ public class FahrenheitPanel_Improved extends JPanel
 		 * but none of them will appear until they are added to this panel
 		 * or to a sub-panel that is added to this panel.
 		 */
-		inputLabel = new JLabel("Temperature in Fahrenheit:");
+		JLabel inputLabel = new JLabel("Temperature in Fahrenheit:");
 		outputLabel = new JLabel("Temperature in Celsius: ");
 		resultLabel = new JLabel("-");
-		enterButton = new JButton("Calculate");
+		JButton enterButton = new JButton("Calculate");
 		fahrenheit = new JTextField(5);
 		fahrenheit.setToolTipText("Enter Fahrenheit temperature as a floating point value.");
 		TempListener listener = new TempListener(); //going to reuse one listener because
