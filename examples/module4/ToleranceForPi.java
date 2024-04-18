@@ -1,7 +1,5 @@
-
 /**
- * Demonstrate using tolerances for comparing floating point numbers.
- * 
+ * Demonstrate using tolerances for comparing floating point numbers. 
  * @author mvail
  */
 public class ToleranceForPi {

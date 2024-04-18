@@ -58,6 +58,7 @@ public class ListFileWords {
 				//separated by whitespace
 				
 				Scanner lineScan = new Scanner(line);
+				//lineScan.useDelimiter(",");
 				
 				//read each token from the line until we run out of tokens
 

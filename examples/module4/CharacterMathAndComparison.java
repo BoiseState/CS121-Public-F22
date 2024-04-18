@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 /**
  * Demonstrate expressions using chars.
- * 
  * @author mvail
  */
 public class CharacterMathAndComparison {
@@ -20,12 +19,13 @@ public class CharacterMathAndComparison {
 		input = kbd.nextLine();
 		upperLetter = input.charAt(0);
 		
-		if ((upperLetter >= 'A') && (upperLetter <= 'Z'))
+		if ((upperLetter >= 'A') && (upperLetter <= 'Z')) {
 			System.out.println(upperLetter + " is uppercase");
-		else if ((upperLetter >= 'a') && (upperLetter <= 'z'))
+		} else if ((upperLetter >= 'a') && (upperLetter <= 'z')) {
 			System.out.println(upperLetter + " is lowercase");
-		else 
+		} else {
 			System.out.println("It is not a letter!");
+		}
 
 		position = (upperLetter - 'A') + 1;
 		System.out.println("\'" + upperLetter + "\'" +

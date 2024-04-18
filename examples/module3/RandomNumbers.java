@@ -13,7 +13,7 @@ public class RandomNumbers
 	public static void main(String[] args)
 	{
 		// Try it with a seed:  new Random(12345);
-		Random generator = new Random(12345);
+		Random generator = new Random();
 		int num1;
 		double num2;
 
@@ -33,7 +33,7 @@ public class RandomNumbers
 		System.out.println("From -10 to 9: " + num1);
 
 		num2 = generator.nextDouble();
-		System.out.println("A random float (between 0 and 1): " + num2);
+		System.out.println("A random double (between 0 and 1): " + num2);
 
 		num2 = generator.nextDouble() * 6;  // 0.0 to 5.999999...
 		num1 = (int)num2 + 1;

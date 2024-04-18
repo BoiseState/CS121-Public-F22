@@ -16,7 +16,6 @@ public class BorderPanel extends JPanel
    public BorderPanel()
    {
 	   setLayout(new BorderLayout());
-	  //setLayout(new BorderLayout(10, 10));
 
       JButton b1 = new JButton("CENTER");
       JButton b2 = new JButton("NORTH");

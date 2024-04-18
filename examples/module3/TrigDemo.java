@@ -9,9 +9,12 @@ public class TrigDemo
 {
 	public static void main(String[] args)
 	{
-		double x, y, z;
+		double x;
 
 		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Math.PI: " + Math.PI);
+		System.out.println();
 
 		System.out.println(" degrees \t radians");
 		System.out.println(" 0 \t " + Math.toRadians(0));

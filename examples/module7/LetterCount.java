@@ -23,9 +23,9 @@ public class LetterCount
 		char current; // the current character being processed
 		int other = 0; // counter for non-alphabetics
 
-		while(scan.hasNextLine())
-		{
-			// System.out.println("Enter a sentence:");
+		System.out.println("Enter a sentence:");
+		// while(scan.hasNextLine())
+		// {
 			String line = scan.nextLine();
 
 			// Count the number of each letter occurrence
@@ -45,7 +45,8 @@ public class LetterCount
 					other++;
 				}
 			}
-		}
+			System.out.println("Enter a sentence:");
+		// }
 		scan.close(); // done with scanner.
 
 		// Print the results

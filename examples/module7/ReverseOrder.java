@@ -21,7 +21,7 @@ public class ReverseOrder
       for (int index = 0; index < numbers.length; index++)
       {
          System.out.print("Enter number " + (index+1) + ": ");
-         numbers[index] = scan.nextDouble();
+         numbers[index] = Double.parseDouble(scan.nextLine());
       }
       
       System.out.println("The numbers in reverse order:");

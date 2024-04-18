@@ -93,15 +93,15 @@ public class DrawingCircle extends Circle {
 		double penAngleDelta = getAngleFromArc(rollingArc);
 		penAngle = (penAngle - penAngleDelta);
 		
-		DecimalFormat dfmt = new DecimalFormat("0.00");
-		System.out.println("c1Circ: " + dfmt.format(2*Math.PI*rollingRadius)
-				+ ", c2Circ: " + dfmt.format(2*Math.PI*radius)
-				+ ", angle: " + dfmt.format(angle) 
-				+ ", rollingRadius: " + dfmt.format(rollingRadius)
-				+ ", distanceFromAnchor: " + dfmt.format(distanceFromAnchor)
-				+ ", rollingArc: " + dfmt.format(rollingArc)
-				+ ", penAngleDelta: " + dfmt.format(penAngleDelta)
-				+ ", penAngle: " + dfmt.format(penAngle));
+		// DecimalFormat dfmt = new DecimalFormat("0.00");
+		// System.out.println("c1Circ: " + dfmt.format(2*Math.PI*rollingRadius)
+		// 		+ ", c2Circ: " + dfmt.format(2*Math.PI*radius)
+		// 		+ ", angle: " + dfmt.format(angle) 
+		// 		+ ", rollingRadius: " + dfmt.format(rollingRadius)
+		// 		+ ", distanceFromAnchor: " + dfmt.format(distanceFromAnchor)
+		// 		+ ", rollingArc: " + dfmt.format(rollingArc)
+		// 		+ ", penAngleDelta: " + dfmt.format(penAngleDelta)
+		// 		+ ", penAngle: " + dfmt.format(penAngle));
 		
 		penPoints.add(getPenPoint());
 		
