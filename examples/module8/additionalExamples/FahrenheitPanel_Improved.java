@@ -12,7 +12,7 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class FahrenheitPanel_Improved extends JPanel
 {
-	private JLabel outputLabel, resultLabel;
+	private JLabel resultLabel;
 	private JTextField fahrenheit;
 
 	/**
@@ -28,7 +28,7 @@ public class FahrenheitPanel_Improved extends JPanel
 		 * or to a sub-panel that is added to this panel.
 		 */
 		JLabel inputLabel = new JLabel("Temperature in Fahrenheit:");
-		outputLabel = new JLabel("Temperature in Celsius: ");
+		JLabel outputLabel = new JLabel("Temperature in Celsius: ");
 		resultLabel = new JLabel("-");
 		JButton enterButton = new JButton("Calculate");
 		fahrenheit = new JTextField(5);

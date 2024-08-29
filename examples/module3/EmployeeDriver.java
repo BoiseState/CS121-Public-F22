@@ -18,7 +18,7 @@ public class EmployeeDriver {
 		//     first.toString(); 
 		// this method returns a String.  We could store it in a new variable as follows
 		String firstToString = first.toString();
-		System.out.print(firsttoString);
+		System.out.print(firstToString);
 
 		//Or we can use the String returned by the toString method directly as an 
 		// argument for a different method. In this case, it is used as the argument for the 	
@@ -50,7 +50,7 @@ public class EmployeeDriver {
 		//changing a value using "paul" changes the object itself
 		System.out.println("Changing the object using an alias:");
 		paul.setWage(250.00);
-		System.out.println(second.toString);
+		System.out.println(second.toString());
 
 		//Primitive Variables 
 		// This assignment makes a copy of the value in sampleWage and stores it in newWage.
