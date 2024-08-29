@@ -46,7 +46,7 @@ public class LightBulbControls extends JPanel
 
 	
 	/**
-	 * Represents the listener for the On butto
+	 * Represents the listener for the On button
 	 */
 	private class OnListener implements ActionListener
 	{

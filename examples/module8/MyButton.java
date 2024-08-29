@@ -4,13 +4,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
-/**
- * 
- */
 
 /**
- * @author amit
+ * Button used for PushCounterVersion2
  *
+ * @author amit
  */
 public class MyButton extends JButton implements ActionListener {
 	
