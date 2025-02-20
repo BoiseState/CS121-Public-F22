@@ -25,11 +25,11 @@ public class TestDoubleCompare
         double diff = val1 - val2;
         //1st compare val1 and val2, if negative it means val2 greater that val1,
         //subtract smaller from the larger
-        double absDiff = val1 - val2 < 0 ? val2 - val1 : val1 - val2;
+        //double absDiff = val1 - val2 < 0 ? val2 - val1 : val1 - val2;
 
-        if(absDiff < tolerance){
-                //the same as the code below
-        }
+        // if(absDiff < tolerance){
+        //         //the same as the code below
+        // }
         if(Math.abs(diff) < tolerance){
                 System.out.println("they are the same within " + tolerance);
         } else {
