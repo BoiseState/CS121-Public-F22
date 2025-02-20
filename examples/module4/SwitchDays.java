@@ -55,4 +55,6 @@ public class SwitchDays
 		
 		keyboard.close();
 	}
+
+	private enum Day {SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY}
 }
