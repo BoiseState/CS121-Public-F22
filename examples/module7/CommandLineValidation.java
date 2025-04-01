@@ -17,7 +17,7 @@ public class CommandLineValidation
         if (args.length != 2)
         {
             System.err.println("Usage: java CommandLineValidation <filename> <num_chars_per_line>");
-            System.exit(1);
+            return;
         }
         
         // validate 1st argument is a name of a file that exists
@@ -26,7 +26,7 @@ public class CommandLineValidation
         if(!file.exists())
         {
             System.err.println("Invalid filename: " + args[0] + ". File does not exist.");
-            System.exit(1);
+            return;
         }
             
         // validate 2nd argument is an integer between 1 and 80
@@ -36,11 +36,11 @@ public class CommandLineValidation
             if(numChars < 1 || numChars > 80)
             {
                 System.err.println("num_chars_per_line must be between 1 and 80.");
-                System.exit(1);
+                return;
             }
         } catch (NumberFormatException e) {
             System.err.println("Argument [" + args[1] + "] must be an integer.");
-            System.exit(1);
+            return;
         }
 
         System.out.println("Arguments accepted!");
