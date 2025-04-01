@@ -39,7 +39,7 @@ public class FileWriter {
             return; // exits main()
         }
 
-        // populate list of input lines until a blank line is entered
+        // write input lines to file until a blank line is entered
         final String PROMPT = "Enter a line of input or a blank line to quit: ";
         System.out.print(PROMPT);
         String line = kbd.nextLine().trim();
