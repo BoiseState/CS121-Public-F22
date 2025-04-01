@@ -8,7 +8,6 @@ import java.util.Scanner;
 /**
  * Log intput lines to a file. Allow user to choose between file replacement or
  * appending.
- * 
  * @author mvail
  */
 public class FileWriter {
@@ -31,7 +30,7 @@ public class FileWriter {
                     pw = new PrintWriter(new FileOutputStream(outputFile, true)); //appends to existing file with given name
                     break;
                 default:
-                    System.out.println("Invalid output choice. No file for you!");
+                    System.out.println("You chose poorly. No file for you!");
                     kbd.close(); //close Scanners when done with them
                     return; // exits main()
             }
@@ -58,9 +57,8 @@ public class FileWriter {
         // file written!
         pw.close();
 
-        // report where output went
+        // report where output went before exiting the program
         System.out.println("Input recorded in file \"" + outputFile.getName() + "\".");
-        
     }
     
 }
