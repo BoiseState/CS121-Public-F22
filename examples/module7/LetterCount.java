@@ -45,7 +45,7 @@ public class LetterCount
 					other++;
 				}
 			}
-			System.out.println("Enter a sentence:");
+			//System.out.println("Enter a sentence:");
 		// }
 		scan.close(); // done with scanner.
 
