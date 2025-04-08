@@ -48,7 +48,8 @@ public class ArrayExample {
 		// see the values in the array
 		System.out.println("Displaying an int[] with a for-each loop:");
 		for (int i : anArray) {
-			System.out.println(i);
+			System.out.print(i);
+			System.out.print(" ");
 		}
 		System.out.println();
 		
@@ -56,7 +57,8 @@ public class ArrayExample {
 		// values by index
 		System.out.println("Displaying an int[] with a for loop:");
 		for (int i = 0; i < anArray.length; i++) {
-			System.out.println(anArray[i]);
+			System.out.print(anArray[i]);
+			System.out.print(" ");
 		}
 		System.out.println();
 		
