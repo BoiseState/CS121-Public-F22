@@ -34,22 +34,22 @@ public class PushCounterPanel extends JPanel {
       Color lightGreen = new Color(206, 255, 199);
       this.setBackground(lightGreen);
 
-      this.setPreferredSize(new Dimension(600, 40));
+      //this.setPreferredSize(new Dimension(600, 40));
    }
 
    /** Represents a listener for button push (action) events. */
    private class ButtonListener implements ActionListener {
       /** Updates the counter and label when the button is pushed. */
       public void actionPerformed(ActionEvent event) {
-         // System.out.println(event.toString());
-         count++;
-         label.setText("Pushes: " + count);
-         if (push.getText().equals("Push")) {
-            push.setText("Ow!");
-         } else {
-            push.setText("Push");
-         }
-         // push.setEnabled(false);
+        // System.out.println(event.toString());
+        count++;
+        label.setText("Pushes: " + count);
+        // if (push.getText().equals("Push")) {
+        // 	push.setText("Ow!");
+        // } else {
+        // 	push.setText("Push");
+        // }
+        // push.setEnabled(false);
       }
    }
 }
