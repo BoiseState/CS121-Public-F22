@@ -12,6 +12,8 @@ public class SwitchDays
 	 */
 	public static void main(String[] args)
 	{
+		enum Day {SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY}
+
 		//display menu based on the enum Day
 		System.out.print("Tell me about my day! \n");
 		for (Day d : Day.values()) {
@@ -51,6 +53,8 @@ public class SwitchDays
 		case SATURDAY:
 			System.out.println("Saturday is the day to party!");
 			break;
+		default:
+			System.out.println("That wasn't a choice.");
 		}
 		
 		keyboard.close();

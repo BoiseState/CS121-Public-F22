@@ -62,9 +62,8 @@ public class TestDoubleCompare
 		System.out.println("area2 = " + area2);
 		
 		final double TOLERANCE_AREA = 0.1; // 1E10-1
-		if (Math.abs(area1 - area2) < TOLERANCE_AREA)
+		if (Math.abs(area1 - area2) < TOLERANCE_AREA) {
 				System.out.println("Essentially equal");
-
-		
+		}
 	}
 }
