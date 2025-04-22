@@ -12,6 +12,11 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class FahrenheitPanel_Improved extends JPanel
 {
+	/*
+	 * The ONLY components that are declared as instance variables are those
+	 * that will be needed in listeners. Anything that can be configured and
+	 * subsequently ignored should be a local variable in the constructor.
+	 */
 	private JLabel resultLabel;
 	private JTextField fahrenheit;
 
