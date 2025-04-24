@@ -37,14 +37,14 @@ public class FahrenheitPanel extends JPanel
 		enterButton.addActionListener(listener);
 
 		// Add all components to the this panel.
-		add(inputLabel);
-		add(fahrenheit);
-		add(outputLabel);
-		add(resultLabel);
-		add(enterButton);
+		this.add(inputLabel);
+		this.add(fahrenheit);
+		this.add(outputLabel);
+		this.add(resultLabel);
+		this.add(enterButton);
 
-		setBackground(LIGHT_GREEN);
-		setPreferredSize(new Dimension(275, 80));
+		this.setBackground(LIGHT_GREEN);
+		this.setPreferredSize(new Dimension(275, 80));
 	}
 
 	/**
