@@ -26,6 +26,7 @@ Math Class
 - UnitCircle.java
 
 Objects, Attributes, Constructors, Methods, Alias, Reference Variable
+- Coordinates.java
 - Employee.java
 - EmployeeDriver.java
 
