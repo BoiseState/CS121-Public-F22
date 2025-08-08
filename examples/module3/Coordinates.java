@@ -1,7 +1,5 @@
 import java.awt.Point;
 
-import java.awt.Point;
-
 /**
  * Demonstrates how to use the Point object.
  * @author CS121 instructors
