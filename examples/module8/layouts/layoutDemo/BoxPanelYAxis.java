@@ -30,7 +30,7 @@ public class BoxPanelYAxis extends JPanel
 		JButton b5 = new JButton("BUTTON 5");
 
 		add(b1);
-		add(Box.createRigidArea(new Dimension(20, 20)));
+		add(Box.createRigidArea(new Dimension(0, 20)));
 		add(b2);
 		add(Box.createVerticalGlue());
 		add(b3);

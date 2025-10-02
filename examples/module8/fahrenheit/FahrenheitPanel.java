@@ -15,6 +15,7 @@ public class FahrenheitPanel extends JPanel
 	private static final Color LIGHT_GREEN = new Color(206, 255, 199);
 	
 	private JLabel outputLabel;
+	private JLabel resultLabel;
 	private JTextField fahrenheit;
 
 	/**
@@ -24,7 +25,7 @@ public class FahrenheitPanel extends JPanel
 	{
 		JLabel inputLabel = new JLabel("Temperature in Fahrenheit:");
 		outputLabel = new JLabel("Temperature in Celsius: ");
-		JLabel resultLabel = new JLabel("-");
+		resultLabel = new JLabel("-");
 		JButton enterButton = new JButton("Calculate");
 
 		fahrenheit = new JTextField(5);
