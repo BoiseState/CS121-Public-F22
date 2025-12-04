@@ -1,15 +1,10 @@
-package misc;
 import java.awt.*;
-
 
 /**
  * How to determine maximum screen size for all screens
  */
-
 public class GetScreenSize {
-
 	public static void main(String[] args) {
-
 		GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment(); 
 		GraphicsDevice[] gs = ge.getScreenDevices(); 
 		
@@ -23,7 +18,5 @@ public class GetScreenSize {
 
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize(); 
 		System.out.println("default screen size: " + dim);
-
 	}
-
 }
