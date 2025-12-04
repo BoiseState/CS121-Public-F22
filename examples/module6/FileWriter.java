@@ -24,6 +24,7 @@ public class FileWriter {
             switch (choice) {
                 case 'R':
                     pw = new PrintWriter(outputFile); //replaces any existing file with given name
+                    //pw = new PrintWriter(new FileOutputStream(outputFile, false)); //does the same thing
                     break;
                 case 'A':
                     pw = new PrintWriter(new FileOutputStream(outputFile, true)); //appends to existing file with given name
