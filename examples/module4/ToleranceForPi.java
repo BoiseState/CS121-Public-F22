@@ -13,11 +13,16 @@ public class ToleranceForPi {
 		final double BAD_PI = 3.14;
 		final double AWFUL_PI = 3;
 		
+		//Difference between Math.PI and itself
 		double bestDifference = Math.abs(Math.PI - Math.PI);
+		//Difference between DECENT_PI and Math.PI
 		double decentDifference = Math.abs(Math.PI - DECENT_PI);
+		//Difference between BAD_PI and Math.PI
 		double badDifference = Math.abs(Math.PI - BAD_PI);
+		//Difference between AWFUL_PI and Math.PI
 		double awfulDifference = Math.abs(Math.PI - AWFUL_PI);
 
+		//How good is Math.PI?
 		if (bestDifference < TOLERANCE15) {
 			System.out.println(Math.PI + " is great Pi!");
 		} else if (bestDifference < TOLERANCE5) {
@@ -28,6 +33,7 @@ public class ToleranceForPi {
 			System.out.println(Math.PI + " is awful Pi.");
 		}
 
+		//How good is DECENT_PI?
 		if (decentDifference < TOLERANCE15) {
 			System.out.println(DECENT_PI + " is great Pi!");
 		} else if (decentDifference < TOLERANCE5) {
@@ -38,6 +44,7 @@ public class ToleranceForPi {
 			System.out.println(DECENT_PI + " is awful Pi.");
 		}
 		
+		//How good is BAD_PI?
 		if (badDifference < TOLERANCE15) {
 			System.out.println(BAD_PI + " is great Pi!");
 		} else if (badDifference < TOLERANCE5) {
@@ -48,6 +55,7 @@ public class ToleranceForPi {
 			System.out.println(BAD_PI + " is awful Pi.");
 		}
 
+		//How good is AWFUL_PI?
 		if (awfulDifference < TOLERANCE15) {
 			System.out.println(AWFUL_PI + " is great Pi!");
 		} else if (awfulDifference < TOLERANCE5) {
